@@ -1,5 +1,4 @@
 import java.util.Iterator;
-//import edu.princeton.cs.algs4.StdRandom;
 
 public class Deque<Item> implements Iterable<Item> {	
 	private int _size;

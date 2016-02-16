@@ -1,14 +1,14 @@
-	
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class Subset {
 	public static void main(String[] args)
 	{
 		int k = StdIn.readInt();
-		int n = 0;
 		RandomizedQueue<String> queue = new RandomizedQueue<String>();
 		while(!StdIn.isEmpty())
 		{
 			queue.enqueue(StdIn.readString());
-			n++;
 		}
 		for(int i = 0; i < k; i++)
 		{
