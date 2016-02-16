@@ -268,5 +268,32 @@ public class Deque<Item> implements Iterable<Item> {
 		System.out.println(test23Status);
 		*/
 		
+		Deque<Integer> d66 = new Deque<Integer>();		
+		d66.addFirst(1);
+		
+		Iterator<Integer> iter = d66.iterator();
+		while(iter.hasNext())
+		{
+			Integer i = iter.next();
+			System.out.println("We are printing out items in the iterator!");
+			System.out.println(i);
+		}
+		
+		//test the iterator
+		Deque<Integer> d5 = new Deque<Integer>();		
+		d5.addFirst(1);
+		d5.addLast(2);
+		d5.addFirst(3);
+		d5.addLast(4);
+		d5.addFirst(5);
+		d5.addLast(6);
+		Iterator<Integer> iter2 = d5.iterator();
+		while(iter2.hasNext())
+		{
+			Integer i = iter2.next();
+			System.out.println("We are printing out items in the iterator!");
+			System.out.println(i);
+		}
+		
 	}
 }

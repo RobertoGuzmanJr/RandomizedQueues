@@ -136,14 +136,7 @@ public class Deque<Item> implements Iterable<Item> {
 	// inner class to deal with iterators
 	private class DequeIterator implements Iterator<Item>
 	{
-		private Node<Item> _current;
-		public DequeIterator()
-		{
-			if(!isEmpty())
-			{
-				_current = _back.next;
-			}
-		}
+		private Node<Item> _current = _back;
 		public boolean hasNext()
 		{
 			return (_current != null);
@@ -267,6 +260,5 @@ public class Deque<Item> implements Iterable<Item> {
 		System.out.println(test22Status);
 		System.out.println(test23Status);
 		*/
-		
 	}
 }
