@@ -141,7 +141,7 @@ public class Deque<Item> implements Iterable<Item> {
 		{
 			if(!isEmpty())
 			{
-				_current = _front.next;
+				_current = _front.previous;
 			}
 		}
 		public boolean hasNext()

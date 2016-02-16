@@ -159,7 +159,7 @@ public class Deque<Item> implements Iterable<Item> {
 				throw new java.util.NoSuchElementException("No more items to return!");
 			}
 			Item item = _current.value;
-			_current = _current.previous;
+			_current = _current.next;
 			return item;
 		}
 	}
