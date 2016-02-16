@@ -2,7 +2,7 @@
 public class Subset {
 	public static void main(String[] args)
 	{
-		int k = StdIn.readInt();
+		int k = 3;//StdIn.readInt();
 		int n = 0;
 		RandomizedQueue<String> queue = new RandomizedQueue<String>();
 		while(!StdIn.isEmpty())

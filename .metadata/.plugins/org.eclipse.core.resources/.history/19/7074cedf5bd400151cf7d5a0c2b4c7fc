@@ -161,7 +161,6 @@ public class Deque<Item> implements Iterable<Item> {
 	// unit testing
 	public static void main(String[] args)
 	{
-		/*
 		Deque<Integer> d1 = new Deque<Integer>();
 		boolean test1Status = (d1.isEmpty() == true);
 		
@@ -259,7 +258,6 @@ public class Deque<Item> implements Iterable<Item> {
 		System.out.println(test20Status);
 		System.out.println(test21Status);
 		System.out.println(test22Status);
-		System.out.println(test23Status);
-		*/
+		System.out.println(test23Status);			
 	}
 }

@@ -123,10 +123,10 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 			return item;
 		}
 	}
+		
 	// unit testing
 	public static void main(String[] args)
 	{
-		/*
 		RandomizedQueue<Integer> r1 = new RandomizedQueue<Integer>();
 		boolean test1Status = (r1.isEmpty() == true);
 		
@@ -183,7 +183,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 		System.out.println(r2.dequeue());
 		System.out.println(r2._capacity);
 		System.out.println(r2._size);					
-		*/
+		
 		//test the iterator
 		/*
 		Deque<Integer> d5 = new Deque<Integer>();		
@@ -202,13 +202,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 		}
 		*/
 		
-		/*
 		System.out.println(test1Status);
 		System.out.println(test2Status);
 		System.out.println(test3Status);
 		System.out.println(test4Status);
 		System.out.println(test5Status);
-		System.out.println(test6Status);
-		*/
+		System.out.println(test6Status);			
 	}
 }
